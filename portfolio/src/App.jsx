@@ -4,10 +4,10 @@ import Intro from './components/intro/intro'
 import Portfolio from './components/portfolio/portfolio'
 import Testimonials from './components/testimonials/testimonals'
 import Works from './components/works/works'
-
+import './app.scss'
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Topbar />
       <div className="sections">
         <Intro />
